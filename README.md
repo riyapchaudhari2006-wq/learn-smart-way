@@ -10,7 +10,7 @@ An AI study assistant for engineering students. Paste a YouTube lecture link and
 - Print / PDF export and history
 
 ## Tech Stack
-React, TypeScript, Vite, Tailwind CSS, Node.js, Gemini API
+React, TypeScript, Vite, Tailwind CSS, Node.js
 
 ## Run Locally
 1. npm install --legacy-peer-deps
@@ -19,4 +19,4 @@ React, TypeScript, Vite, Tailwind CSS, Node.js, Gemini API
 4. Open http://localhost:3000
 
 ## Credits
-Prototyped in Google AI Studio and customized in VS Code.
+customized in VS Code.
