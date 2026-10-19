@@ -1,0 +1,8 @@
+{
+  "name": "EnggPrep - Engineering Lecture Study Assistant",
+  "description": "AI study companion for Indian engineering students. Converts lecture videos into 10-point summaries, timestamped topics, 5 definitions, 10 MCQs, and viva Q&A in English, Hinglish, and Hindi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
