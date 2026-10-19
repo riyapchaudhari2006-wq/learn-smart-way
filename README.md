@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# EnggPrep AI
 
-# Run and deploy your AI Studio app
+An AI study assistant for engineering students. Paste a YouTube lecture link and get a summary, timestamps, definitions, MCQs and viva questions in English, Hinglish or Hindi.
 
-This contains everything you need to run your app locally.
+## Features
+- 10-point lecture summary
+- Key topics with timestamps
+- Definitions and 10 MCQs with answers
+- Viva-style questions
+- Print / PDF export and history
 
-View your app in AI Studio: https://ai.studio/apps/224c8aca-3f68-4d4e-8bab-d6b3eff57b76
+## Tech Stack
+React, TypeScript, Vite, Tailwind CSS, Node.js, Gemini API
 
 ## Run Locally
+1. npm install --legacy-peer-deps
+2. Copy .env.example to .env and add your GEMINI_API_KEY
+3. npm run dev
+4. Open http://localhost:3000
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Credits
+Prototyped in Google AI Studio and customized in VS Code.
